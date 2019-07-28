@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:id="@+id/ll_click"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imvImage"
+            android:layout_width="70dp"
+            android:src="@drawable/phapluat"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_height="70dp" />
+        <TextView
+            android:id="@+id/tvItemNew"
+            android:layout_width="match_parent"
+            android:text="Phap luat"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
